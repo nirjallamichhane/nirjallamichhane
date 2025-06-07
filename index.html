@@ -1,8 +1,552 @@
-<html>
-  <head>
-  </head>
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirjal Lamichhane - Portfolio</title>
+    <meta name="description" content="Portfolio of Nirjal Lamichhane - Mechanical Engineer specializing in renewable energy, sustainable design, and innovative engineering solutions.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
 <body>
-  <h1>Hello This is Nirjal</h1>
-  <p>this is the test webiste which will be launched soon</p>
+    <!-- Loading Animation -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top" title="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">NL</a>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#research">Research</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-right">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-subtitle">Mechanical Engineer & Renewable Energy Specialist</span>
+                <h1>Nirjal Lamichhane</h1>
+                <p>Passionate about sustainable engineering and renewable energy solutions. Transforming ideas into impactful innovations.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero.jpg" alt="Nirjal Lamichhane">
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/nirjal-lamichhane" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/nirjal-lamichhane" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:nirjal.lamichhane@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-intro">
+                <p class="lead">I am a passionate mechanical engineer with a strong focus on renewable energy and sustainable design. My journey combines technical expertise with innovative thinking to create solutions that make a real impact.</p>
+            </div>
+            <div class="about-details">
+                <div class="about-detail-item">
+                    <i class="fas fa-bullseye"></i>
+                    <h4>Mission</h4>
+                    <p>To drive innovation in renewable energy and sustainable engineering, creating solutions that benefit both industry and environment.</p>
+                </div>
+                <div class="about-detail-item">
+                    <i class="fas fa-eye"></i>
+                    <h4>Vision</h4>
+                    <p>To be at the forefront of sustainable engineering, leading projects that transform how we approach energy and manufacturing.</p>
+                </div>
+                <div class="about-detail-item">
+                    <i class="fas fa-heart"></i>
+                    <h4>Passion</h4>
+                    <p>Combining technical expertise with creative problem-solving to develop innovative solutions for complex engineering challenges.</p>
+                </div>
+            </div>
+
+            <div class="journey">
+                <h3>My Journey</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jan 2024 - Present</span>
+                            <h3><i class="fas fa-briefcase"></i> Engineer Team Leader</h3>
+                            <h4>Autolab Technologies</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Leading a team of 5 engineers in developing innovative automotive solutions</li>
+                                <li><i class="fas fa-check"></i> Managing project timelines and resource allocation</li>
+                                <li><i class="fas fa-check"></i> Implementing quality control measures and process improvements</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">Feb 2024 - May 2024</span>
+                            <h3><i class="fas fa-industry"></i> Industrial Training</h3>
+                            <h4>Bottlers Nepal Limited</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Gained hands-on experience in industrial manufacturing processes</li>
+                                <li><i class="fas fa-check"></i> Worked on production line optimization and quality control</li>
+                                <li><i class="fas fa-check"></i> Participated in maintenance and troubleshooting activities</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jan 2023 - Jan 2024</span>
+                            <h3><i class="fas fa-users"></i> Project/Research Manager</h3>
+                            <h4>SEDS-KU</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Led multiple research projects in sustainable energy</li>
+                                <li><i class="fas fa-check"></i> Managed team of 10 members and project budgets</li>
+                                <li><i class="fas fa-check"></i> Coordinated with industry partners and academic institutions</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jul 2022 - Jul 2023</span>
+                            <h3><i class="fas fa-pen-fancy"></i> Editorial Director</h3>
+                            <h4>Rotaract Club of Rudramati Babarmahal</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Led content strategy and editorial direction</li>
+                                <li><i class="fas fa-check"></i> Managed team of writers and content creators</li>
+                                <li><i class="fas fa-check"></i> Increased engagement by 40% through strategic content</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jun 2023 - May 2024</span>
+                            <h3><i class="fas fa-project-diagram"></i> Advanced Heat Exchanger Development</h3>
+                            <h4>Final Year Project</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Designed and optimized heat exchanger for industrial applications</li>
+                                <li><i class="fas fa-check"></i> Improved efficiency by 25% through innovative design</li>
+                                <li><i class="fas fa-check"></i> Conducted extensive testing and validation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jun 2022 - May 2023</span>
+                            <h3><i class="fas fa-water"></i> Tidal Energy Innovation</h3>
+                            <h4>Research Project</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Developed novel approach to tidal energy harnessing</li>
+                                <li><i class="fas fa-check"></i> Created prototype with 30% improved efficiency</li>
+                                <li><i class="fas fa-check"></i> Published findings in international journal</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">2020 - 2024</span>
+                            <h3><i class="fas fa-graduation-cap"></i> Bachelor in Mechanical Engineering</h3>
+                            <h4>Kathmandu University</h4>
+                            <div class="gpa"><i class="fas fa-star"></i> GPA: 3.8/4.0</div>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Specialized in Renewable Energy and Sustainable Design</li>
+                                <li><i class="fas fa-check"></i> Active member of SEDS-KU and Rotaract Club</li>
+                                <li><i class="fas fa-check"></i> Completed multiple industry projects and internships</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">2017 - 2019</span>
+                            <h3><i class="fas fa-school"></i> +2 Science</h3>
+                            <h4>Seabird International College</h4>
+                            <div class="gpa"><i class="fas fa-star"></i> GPA: 3.9/4.0</div>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Focused on Physics and Mathematics</li>
+                                <li><i class="fas fa-check"></i> Participated in science exhibitions and competitions</li>
+                                <li><i class="fas fa-check"></i> Developed strong foundation in technical subjects</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="expertise">
+                <h3>Technical Expertise</h3>
+                <div class="skill-categories">
+                    <div class="skill-category">
+                        <h4><i class="fas fa-cogs"></i> Engineering Skills</h4>
+                        <ul>
+                            <li data-tooltip="Proficient in 3D modeling and design"><i class="fas fa-check"></i> CAD/CAM (SolidWorks, AutoCAD)</li>
+                            <li data-tooltip="Advanced simulation and analysis"><i class="fas fa-check"></i> Finite Element Analysis</li>
+                            <li data-tooltip="Expert in heat transfer and thermal systems"><i class="fas fa-check"></i> Thermal Analysis</li>
+                            <li data-tooltip="Comprehensive understanding of fluid mechanics"><i class="fas fa-check"></i> Fluid Dynamics</li>
+                            <li data-tooltip="Knowledge of various manufacturing processes"><i class="fas fa-check"></i> Manufacturing Processes</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4><i class="fas fa-solar-panel"></i> Renewable Energy</h4>
+                        <ul>
+                            <li data-tooltip="Design and implementation of solar systems"><i class="fas fa-check"></i> Solar Energy Systems</li>
+                            <li data-tooltip="Wind turbine technology and optimization"><i class="fas fa-check"></i> Wind Power Technology</li>
+                            <li data-tooltip="Battery and energy storage solutions"><i class="fas fa-check"></i> Energy Storage Solutions</li>
+                            <li data-tooltip="Eco-friendly design principles"><i class="fas fa-check"></i> Sustainable Design</li>
+                            <li data-tooltip="Energy optimization and efficiency"><i class="fas fa-check"></i> Energy Efficiency</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4><i class="fas fa-laptop-code"></i> Technical Tools</h4>
+                        <ul>
+                            <li data-tooltip="Advanced simulation and modeling"><i class="fas fa-check"></i> MATLAB & Simulink</li>
+                            <li data-tooltip="Engineering simulation software"><i class="fas fa-check"></i> ANSYS</li>
+                            <li data-tooltip="Programming and automation"><i class="fas fa-check"></i> Python Programming</li>
+                            <li data-tooltip="Statistical analysis and visualization"><i class="fas fa-check"></i> Data Analysis</li>
+                            <li data-tooltip="Project planning and execution"><i class="fas fa-check"></i> Project Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Honeycomb Heat Exchanger Project -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-category">Thermal Engineering</span>
+                            <span class="project-year">2023-2024</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Honeycomb Heat Exchanger for Enhanced Combustion</h3>
+                        <p class="project-description">Improved cookstove efficiency with innovative heat exchanger design.</p>
+                        <div class="project-details">
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i>Integrated honeycomb structure</li>
+                                <li><i class="fas fa-check-circle"></i>Simulated airflow using ANSYS Fluent</li>
+                                <li><i class="fas fa-check-circle"></i>Improved combustion efficiency</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag"><i class="fas fa-tools"></i>ANSYS Fluent</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tidal Energy Project -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-category">Renewable Energy</span>
+                            <span class="project-year">2022-2023</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tidal Energy Harvesting System</h3>
+                        <p class="project-description">Demonstrative system for tidal energy conversion.</p>
+                        <div class="project-details">
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i>Created working prototype</li>
+                                <li><i class="fas fa-check-circle"></i>Studied mechanical energy extraction</li>
+                                <li><i class="fas fa-check-circle"></i>Implemented miniature turbine system</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag"><i class="fas fa-tools"></i>Prototype Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Solar Tracker Project -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-category">Solar Technology</span>
+                            <span class="project-year">2021</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Single Axis Solar Tracker</h3>
+                        <p class="project-description">Automated solar tracking system for panel efficiency.</p>
+                        <div class="project-details">
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i>Developed tracking system with servo motors</li>
+                                <li><i class="fas fa-check-circle"></i>Implemented Arduino-based control</li>
+                                <li><i class="fas fa-check-circle"></i>Optimized panel orientation</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag"><i class="fas fa-microchip"></i>Arduino</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wind Power Project -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-category">Wind Energy</span>
+                            <span class="project-year">2020-2021</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Wind Power Generation System</h3>
+                        <p class="project-description">Small-scale wind turbine system for energy conversion.</p>
+                        <div class="project-details">
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i>Designed wind turbine system</li>
+                                <li><i class="fas fa-check-circle"></i>Analyzed aerodynamic efficiency</li>
+                                <li><i class="fas fa-check-circle"></i>Optimized blade design</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag"><i class="fas fa-tools"></i>Aerodynamic Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- High Altitude Balloon Project -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-category">Aerospace</span>
+                            <span class="project-year">2021-2022</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>High Altitude Balloon Project</h3>
+                        <p class="project-description">Atmospheric data collection using high-altitude balloon.</p>
+                        <div class="project-details">
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i>Launched balloon with sensors</li>
+                                <li><i class="fas fa-check-circle"></i>Collected temperature, pressure, humidity data</li>
+                                <li><i class="fas fa-check-circle"></i>Analyzed atmospheric conditions</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag"><i class="fas fa-tools"></i>SEDS KU</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NOAA Project -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-satellite-dish"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-category">Satellite Technology</span>
+                            <span class="project-year">2021-2022</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>NOAA 18 Real-time Image Decoding</h3>
+                        <p class="project-description">Real-time weather satellite data processing.</p>
+                        <div class="project-details">
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i>Captured live satellite data using RTL-SDR</li>
+                                <li><i class="fas fa-check-circle"></i>Processed NOAA 18 imagery</li>
+                                <li><i class="fas fa-check-circle"></i>Implemented real-time communication</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag"><i class="fas fa-tools"></i>RTL-SDR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title">Research & Publications</h2>
+            <div class="research-content">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="research-info">
+                        <h3>Review Article</h3>
+                        <h4>A comprehensive review of infrared thermography and deep learning applications for solar photovoltaic systems</h4>
+                        <p class="journal">Infrared Physics & Technology</p>
+                        <p class="doi">DOI: <a href="https://doi.org/10.1016/j.infrared.2025.105878" target="_blank" rel="noopener">10.1016/j.infrared.2025.105878</a></p>
+                        <p class="year">2025</p>
+                    </div>
+                </div>
+
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="research-info">
+                        <h3>Review Article</h3>
+                        <h4>Innovations in Building Diagnostics and Condition Monitoring: A Comprehensive Review of Infrared Thermography Applications</h4>
+                        <p class="journal">Buildings, MDPI</p>
+                        <p class="doi">DOI: <a href="https://www.mdpi.com/2075-5309/13/11/2829" target="_blank" rel="noopener">10.3390/buildings13112829</a></p>
+                        <p class="year">2023</p>
+                    </div>
+                </div>
+
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div class="research-info">
+                        <h3>Research Article</h3>
+                        <h4>Modelling and simulation for defect detection in hydroelectric penstock using infrared thermography</h4>
+                        <p class="journal">Thermal Science and Engineering, EnPress Publisher</p>
+                        <p class="doi">DOI: <a href="https://systems.enpress-publisher.com/index.php/TSE/article/view/2494" target="_blank" rel="noopener">10.xxxx/TSE.2023.2494</a></p>
+                        <p class="year">2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Connect With Me</h2>
+            <div class="contact-content contact-cards">
+                <div class="contact-card details-card">
+                    <div class="contact-header">
+                        <h3>Contact Details</h3>
+                        <p>Feel free to reach out for collaborations or just a friendly hello.</p>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:nirjal.lamichhane@gmail.com">nirjal.lamichhane@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <a href="tel:+9779841234567">+977 9841234567</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <a href="https://maps.google.com/?q=Kathmandu,Nepal" target="_blank" rel="noopener">Kathmandu, Nepal</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-card form-card">
+                    <div class="contact-header">
+                        <h3>Send a Message</h3>
+                        <p>I'll get back to you as soon as possible.</p>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nirjal Lamichhane. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+        <div class="progress-bar-fill"></div>
+    </div>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay">
+        <div class="search-content">
+            <div class="search-header">
+                <input type="text" id="search-input" placeholder="Search... (Press '/' to focus)">
+                <button class="search-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="search-results"></div>
+        </div>
+    </div>
+
+    <!-- Back to Section Button -->
+    <button id="back-to-section" class="back-to-section" title="Back to previous section">
+        <i class="fas fa-arrow-left"></i>
+    </button>
+
+    <script src="script.js"></script>
 </body>
 </html>
